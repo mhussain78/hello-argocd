@@ -12,7 +12,7 @@ public class GreetingController {
 
     @GetMapping
     Greeting greeting() {
-        return new Greeting("Hello Heider Hussain @ " + now());
+        return new Greeting("Hello Sina Hussain @ " + now());
     }
 
 }
